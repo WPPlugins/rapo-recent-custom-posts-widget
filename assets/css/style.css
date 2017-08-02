@@ -1,0 +1,65 @@
+body[dir="rtl"] .rapo-rcpw-thumbnail {
+	margin-right: 0px;
+	margin-left: 10px;
+}
+
+.rapo-rcpw-wrapper {
+	padding: 0;
+	margin: 0 auto;
+}
+
+.rapo-rcpw-wrapper li {
+	list-style: none;
+	list-style-type: none;
+	margin: 0 !important;
+	border-top: 0px !important;
+	border-bottom: 0px !important;
+}
+
+.rapo-rcpw-wrapper li .rapo-rcpw-item {
+	padding-bottom: 10px;
+	padding-top: 17px;
+	position: relative;
+}
+
+.rapo-rcpw-item {
+	float:left;
+	width: 50%;
+}
+
+.rapo-rcpw-thumbnail {
+	width: 90%;
+	height: 100px;
+    overflow: hidden;
+    position: relative;
+	display:block;
+}
+
+.rapo-rcpw-thumbnail img {
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    top: 50%;
+    bottom: 50%;
+    width: 100%;
+    height: auto;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+
+.rapo-rcpw-content {
+	position: relative;
+	overflow:hidden;
+}
+
+.rapo-rcpw-item-title {
+	font-size: 1rem;
+	font-weight: bold;
+	line-height: normal;
+	margin:0;
+	padding: 0;
+}
+
+
+
